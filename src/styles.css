@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #0E2A4F;
+}
+
+.navbar {
+  border-bottom: 15px solid #C79600;
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  color: #C79600;
+  font-variant: small-caps;
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 250%;
+}
+
+label {
+  color: #C79600;
+  font-variant: small-caps;
+}

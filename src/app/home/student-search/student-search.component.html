@@ -1,0 +1,18 @@
+<div class="navbar">
+  <div class="col-md-5">
+    <form (ngSubmit)="onStudentSearch(f)" #f="ngForm">
+      <div class="input-group" id="custom-search-input">
+        <input type="text" name="student" class="form-control" placeholder="Search Student Name" ngModel />
+        <span class="input-group-btn">
+          <button class="btn btn-info" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </span>
+      </div>
+    </form>
+  </div>
+
+  <div class="col-md-7" style="text-align: right;">
+    <h3 style="font-size: 220%">Welcome {{ this.user }}!</h3>
+  </div>
+</div>
